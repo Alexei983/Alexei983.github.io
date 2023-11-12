@@ -19,7 +19,7 @@ body{
 
 .work img{
     height: 300px;
-    transition: transform 0.25s;
+    transition: transform 0.5s;
 }
 
 .work img:hover{
@@ -38,6 +38,10 @@ body{
     .works{
         display: grid;
         grid-template-columns: 100%;
+    }
+
+    .work{
+        margin-bottom: 3px;
     }
 
     .work img{
