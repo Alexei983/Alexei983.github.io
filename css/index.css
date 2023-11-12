@@ -1,6 +1,7 @@
 body{
     background-image: url(../img/leaves.jpg);
     background-size: cover;
+    background-color: #000;
 }
 
 .header{
