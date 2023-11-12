@@ -1,0 +1,9 @@
+@font-face {
+    font-weight: 400;
+    font-family: 'PF';
+    src: url('../fonts/PFDinMono-Regular.ttf');
+}
+
+*{
+    font-family: 'PF';
+}

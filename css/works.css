@@ -1,0 +1,44 @@
+.main{
+    background-color: #000;
+}
+
+.works{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.work{
+    overflow: hidden;
+    margin-bottom: 1px;
+    margin-right: 1px;
+}
+
+.work img{
+    height: 300px;
+    transition: transform 0.25s;
+}
+
+.work img:hover{
+    transform: scale(1.1);
+    filter: grayscale(100%);
+}
+
+@media (max-width: 1062px){
+    .works{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media (max-width: 800px){
+    .works{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .work img{
+        width: 100%;
+        height: auto;
+        transition: transform 0.25s;
+    }
+}
