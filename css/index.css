@@ -1,8 +1,24 @@
 body{
-    background-size: auto;
-    animation: change-background 240s linear infinite;
+    background-size: cover;
+    /*animation: change-background 35s linear infinite;
+    animation-timing-function: steps(1, end);
+    */
+    background: url(../img/fon.jpg) no-repeat;
 }
-
+/*
+body:before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0, 0.5);
+}
+*/
 .header{
     padding-top: 20px;
 }
@@ -19,7 +35,7 @@ body{
 }
 .header .link{
     text-decoration: none;
-    color: #69696991;
+    color: #dbdbdb91;
     transition: 0.3s;
 }
 
@@ -43,20 +59,22 @@ body{
 
 }
 
+/*
 @keyframes change-background{
     0%{
         background-image: url(../img/fon.jpg);
     }
-    25%{    
-        background-image: url(../img/fon1.jpg);
+    25%{
+        background-image: url(../img/fon3.jpg);
     }
     50%{
-        background-image: url(../img/fon2.jpg);
+        background-image: url(../img/fon1.jpg);
     }
     75%{
-        background-image: url(../img/fon3.jpg);
+        background-image: url(../img/fon4.jpg);
     }
     100%{
         background-image: url(../img/fon4.jpg);
     }
 }
+*/
